@@ -48,3 +48,17 @@ for m in range(1,13):
         meetday = weektwo[calendar.FRIDAY]
       
     print (f"{calendar.month_name[m]}: {meetday}")
+
+#Code challenge. Count the given weekday in a given month 
+
+def count_days(year, month, whichday):
+    cal = calendar.monthcalendar(year, month)
+    print(cal)
+    daycount = 0
+    for i in range(0,len(cal)):
+        if cal[i][whichday] != 0:
+            daycount += 1
+    return daycount
+print(count_days(2026, 12, 0))
+
+

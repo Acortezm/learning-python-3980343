@@ -16,6 +16,7 @@ now = datetime.now() # get the current date and time
 print (now.strftime("The current year is: %Y")) # full year with century
 print (now.strftime("Today is %a, %d %B, %y")) # abbreviated day, num, full month, abbreviated year
 
+#strfti.me
 # %c - locale's date and time, %x - locale's date, %X - locale's time
 print (now.strftime("Locale date and time: %c"))
 print (now.strftime("Locale date: %x"))
