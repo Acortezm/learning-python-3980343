@@ -36,7 +36,7 @@ def hello_func(greeting, name=None):
 hello_func("Hi, ")
 
 # function with variable number of parameters
-def multi_add(start, *args)
+def multi_add(start, *args):
   result = start 
   for x in args: 
     result = result + x 
